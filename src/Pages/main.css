@@ -1,0 +1,56 @@
+.about{
+    margin:120px 0;
+    display: flex;
+    align-items: center;
+}
+.aboutText{
+    font-weight: bold;
+    margin: 5px 0;
+}
+.aboutDes{
+    margin: 12px 0;
+}
+.fromMaster{
+    width: 400px;
+    background: paleturquoise;
+    padding: 20px 20px;
+    margin: 80px auto;
+    border-radius: 5px;
+    width: 22rem;
+   
+    
+}
+.formBtn{
+    background-color: darkcyan;
+    padding:10px 20px;
+    border-radius: 5px;
+    color: wheat;
+}
+.signInGmail{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.fcGail{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.signIn{
+    display: flex;
+    align-items: center;
+
+}
+.ioIosLogOut{
+    margin-left: 5px;
+}
+.mostafa{
+    margin: 40px 0;
+    margin-bottom: 150px;
+}  
+
+
+
+

@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Normal Appointment",
+        "place":"Mohakhali genaral Hospital",
+        "time": "4pm",
+        "details": "this is our normal appointmet but you can get full service in this apppoint",
+        "appointment_free":"1000/-",
+        "img":"https://i.ibb.co/tcmT57R/pexels-mart-production-7089619-1.jpg",
+        "id":1
+    },
+    {
+        "name":"Privet Appointmet",
+        "place":"Mohakhali genaral Hospital",
+        "time": "8pm",
+        "details": "this is our Privet appointmet but you can get full service in this apppoint",
+        "appointment_free":"3000/-",
+        "img":"https://i.ibb.co/92yKzSr/pexels-shvets-production-8413162.jpg",
+        "id":2
+    },
+    {
+        "name":"Vip Appointment",
+        "place":"Mohakhali genaral Hospital",
+        "time": "10am",
+        "details": "this is our Vip appointmet but you can get full service in this apppoint",
+        "appointment_free":"5000/-",
+        "img":"https://i.ibb.co/zs1mQvg/pexels-shvets-production-7176026.jpg",
+        "id":3
+    }
+]
+
+
+
