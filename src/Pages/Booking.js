@@ -7,7 +7,7 @@ const Booking = () => {
 
 const [show,setShow] = useState([]);
 useEffect(() => {
-    fetch('http://localhost:5000/insertData')
+    fetch('https://doctorsakib.netlify.app/insertData')
     .then((response) => response.json())
     .then((json) => setShow(json));
   
@@ -17,7 +17,7 @@ useEffect(() => {
 const handleDelete = id => {
     const proceed = window.confirm('Are you sure want to delete this product?');
     if(proceed){
-      const url  = `http://localhost:5000/DeleteData/${id}`;
+      const url  = `https://doctorsakib.netlify.app/DeleteData/${id}`;
       fetch(url,{
          method : 'DELETE'
       })

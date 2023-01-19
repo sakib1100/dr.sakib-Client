@@ -15,7 +15,7 @@ const CheckAppoinment = () => {
      const mobile = event.target.mobile.value;
 
 
-fetch('http://localhost:5000/insertData', {
+fetch('https://doctorsakib.netlify.app/insertData', {
   method: 'POST',
   body: JSON.stringify({
    name,email,location,mobile
