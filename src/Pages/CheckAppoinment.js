@@ -15,7 +15,7 @@ const CheckAppoinment = () => {
      const mobile = event.target.mobile.value;
 
 
-fetch('https://doctorsakib.netlify.app/insertData', {
+fetch('https://dr-sakib-sarver.vercel.app/insertData', {
   method: 'POST',
   body: JSON.stringify({
    name,email,location,mobile

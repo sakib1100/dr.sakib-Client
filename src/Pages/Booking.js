@@ -7,7 +7,7 @@ const Booking = () => {
 
 const [show,setShow] = useState([]);
 useEffect(() => {
-    fetch('https://doctorsakib.netlify.app/insertData')
+    fetch('https://dr-sakib-sarver.vercel.app/insertData')
     .then((response) => response.json())
     .then((json) => setShow(json));
   
@@ -17,7 +17,7 @@ useEffect(() => {
 const handleDelete = id => {
     const proceed = window.confirm('Are you sure want to delete this product?');
     if(proceed){
-      const url  = `https://doctorsakib.netlify.app/DeleteData/${id}`;
+      const url  = `https://dr-sakib-sarver.vercel.app/DeleteData/${id}`;
       fetch(url,{
          method : 'DELETE'
       })
